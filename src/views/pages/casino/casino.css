@@ -1,0 +1,107 @@
+﻿.bg-casino {
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.casino-link {
+  box-shadow: 0 0 2px 2px #ffffff91;
+  border-radius: 7px;
+  display: block;
+}
+
+.casino-link-img {
+  height: 100%;
+  /* padding: 40px; */
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.mb-1 {
+  margin-bottom: 1em;
+}
+
+.col-xs-6 {
+  width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  .casino-link-img {
+    /* padding: 20px; */
+  }
+}
+
+a {
+  text-decoration: none !important;
+}
+
+@keyframes mymove {
+  from {
+    background-color: #ffffff;
+  }
+
+  to {
+    background-color: #d38f16;
+  }
+}
+
+.list {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.body-section {
+  min-height: 25vh;
+}
+
+.grey-color {
+  color: #828282;
+}
+
+.footer-agent {
+  border-top: 1px #333f4d solid;
+  padding-top: 25px;
+  /*margin-bottom: 60px;*/
+  /*color: #828282;*/
+  /*color: #022B3A;*/
+  font-family: "inter";
+  font-size: 13px;
+  font-weight: 400;
+  /*margin-top: 120px;*/
+}
+
+.footer-mobile a.color-dark {
+  display: inline-block;
+  padding: 4px;
+}
+
+@media (max-width: 1199px) {
+  .header .header-nav {
+    left: unset !important;
+    right: 0;
+  }
+}
+
+.overlay-casino::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  /*top: 0;*/
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.cas-h1 {
+  padding: 10px 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #dbc281;
+}
+
+.casino-row .col-sm-2 {
+  width: 50%;
+}
